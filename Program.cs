@@ -1,12 +1,22 @@
-﻿namespace EmployeeWageProgram
+namespace EmployeeWageProgram
 {
-
-    class Program
+    public class EmployeeCheck
     {
-        static void Main(string[] args)
+        public static void CheckEmployeePresence()
         {
-            Console.WriteLine("Welcome to Employee Wage Program");
-        }
+            int Is_Full_Time = 1;
 
+            Random random = new Random();
+            int empCheck = random.Next(2);
+
+            if(empCheck==Is_Full_Time)
+            {
+                Console.WriteLine("Employee is Present");
+            }
+            else
+            {
+                Console.WriteLine("Employee is Absent");
+            }
+        }
     }
 }
