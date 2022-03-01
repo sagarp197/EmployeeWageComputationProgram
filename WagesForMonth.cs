@@ -19,8 +19,8 @@ namespace EmployeeWageProgram
             int Total_Working_Hrs = 100;
             int Total_Working_Days = 20;
 
-            //while (TotalWorkingHrs < Total_Working_Hrs || TotalWorkingDays < Total_Working_Days)
-            while (TotalWorkingDays < Total_Working_Days)
+            while (TotalWorkingHrs < Total_Working_Hrs || TotalWorkingDays < Total_Working_Days)
+            //while (TotalWorkingDays < Total_Working_Days)
             {
 
                 TotalWorkingDays++;
