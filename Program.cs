@@ -10,6 +10,10 @@ namespace EmployeeWageProgram
             EmpWage.CalculateEmpWage();
             PartTimeWage.CalculateEmpWage();
             WagesForMonth.CalculateEmpWage();
+            SwitchCase.CalculateEmpWage();
+            WagesFor20Days.Emp20DaysWage();
+            WagesForMonth.EmpMonthlyWage();
+
 
         }
 
